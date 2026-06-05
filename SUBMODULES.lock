@@ -1,7 +1,4 @@
 # Submodule metadata snapshot
 # Generated: 2026-06-05T21:28:44Z
 
-lib/q f14d5ff77185d97f37ac77ac50c74fb2bc146231 https://github.com/schult/q.git
 lib/libDaisy d5f6bb40bd2a34784507c2ed3dd76aa5dc1de555 https://github.com/schult/libDaisy.git
-lib/gcem 012ae73c6d0a2cb09ffe86475f5c6fba3926e200 https://github.com/kthohr/gcem.git
-lib/daisysp 8a24493c518caa9fc73dcb9cde449e4355043e17 https://github.com/electro-smith/daisysp.git
