@@ -28,15 +28,7 @@ class PLL
         void UpdateVCOFrequency(float phase_error)
         {
             vco_frequency += phase_error * response_speed;
-
-            if (vco_frequency < min_vco_frequency)
-            {
-                vco_frequency = min_vco_frequency;
-            }
-            else if (vco_frequency > max_vco_frequency)
-            {
-                vco_frequency = max_vco_frequency;
-            }
+            vco_frequency = std::clamp(vco_frequency, min_vco_frequency, max_vco_frequency);
 
             vco_output = GenerateVcoSample(vco_frequency);
         }
